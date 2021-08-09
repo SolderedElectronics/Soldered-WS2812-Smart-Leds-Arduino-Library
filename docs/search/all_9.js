@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['sendaddress_17',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_18',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
-  ['sensor_19',['Sensor',['../class_sensor.html',1,'Sensor'],['../class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62',1,'Sensor::Sensor()']]]
+  ['k210show_39',['k210Show',['../_adafruit___neo_pixel_8cpp.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c'],['../kendyte__k210_8c.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c']]],
+  ['kendyte_5fk210_2ec_40',['kendyte_k210.c',['../kendyte__k210_8c.html',1,'']]]
 ];

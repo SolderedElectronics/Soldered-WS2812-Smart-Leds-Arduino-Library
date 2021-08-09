@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['sendaddress_32',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_33',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
-  ['sensor_34',['Sensor',['../class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62',1,'Sensor']]]
+  ['easyc_108',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]],
+  ['espshow_109',['espShow',['../_adafruit___neo_pixel_8cpp.html#ac0b6331d7e740cc928c9733e3684c874',1,'espShow(uint16_t pin, uint8_t *pixels, uint32_t numBytes, uint8_t type):&#160;Adafruit_NeoPixel.cpp'],['../esp_8c.html#a9f75d8214f2a439312753e8355cffc0e',1,'espShow(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;esp.c'],['../esp8266_8c.html#ab9f8294bbf9229da8b868412ca3b5d46',1,'espShow(uint8_t pin, uint8_t *pixels, uint32_t numBytes, __attribute__((unused)) boolean is800KHz):&#160;esp8266.c']]]
 ];
