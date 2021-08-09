@@ -45,7 +45,7 @@ void loop()
 // and a delay time (in milliseconds) between pixels.
 void colorWipe(uint32_t color, int wait)
 {
-    for (int i = 0; i < strip.numPixels(); i++)
+    for (uint16_t i = 0; i < strip.numPixels(); i++)
     {                                  // For each pixel in strip...
         strip.setPixelColor(i, color); //  Set pixel's color (in RAM)
         strip.show();                  //  Update strip to match
@@ -68,7 +68,7 @@ void whiteOverRainbow(int whiteSpeed, int whiteLength)
 
     for (;;)
     { // Repeat forever (or until a 'break' or 'return')
-        for (int i = 0; i < strip.numPixels(); i++)
+        for (uint16_t i = 0; i < strip.numPixels(); i++)
         {                                       // For each pixel in strip...
             if (((i >= tail) && (i <= head)) || //  If between head & tail...
                 ((tail > head) && ((i >= tail) || (i <= head))))
@@ -134,7 +134,7 @@ void rainbowFade2White(int wait, int rainbowLoops, int whiteLoops)
     for (uint32_t firstPixelHue = 0; firstPixelHue < rainbowLoops * 65536; firstPixelHue += 256)
     {
 
-        for (int i = 0; i < strip.numPixels(); i++)
+        for (uint16_t i = 0; i < strip.numPixels(); i++)
         { // For each pixel in strip...
 
             // Offset pixel hue by an amount to make one full revolution of the

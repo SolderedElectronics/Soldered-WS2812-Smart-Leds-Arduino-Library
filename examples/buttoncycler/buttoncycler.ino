@@ -90,7 +90,7 @@ void loop()
 // and a delay time (in milliseconds) between pixels.
 void colorWipe(uint32_t color, int wait)
 {
-    for (int i = 0; i < strip.numPixels(); i++)
+    for (uint16_t i = 0; i < strip.numPixels(); i++)
     {                                  // For each pixel in strip...
         strip.setPixelColor(i, color); //  Set pixel's color (in RAM)
         strip.show();                  //  Update strip to match
@@ -128,7 +128,7 @@ void rainbow(int wait)
     // means we'll make 3*65536/256 = 768 passes through this outer loop:
     for (long firstPixelHue = 0; firstPixelHue < 3 * 65536; firstPixelHue += 256)
     {
-        for (int i = 0; i < strip.numPixels(); i++)
+        for (uint16_t i = 0; i < strip.numPixels(); i++)
         { // For each pixel in strip...
             // Offset pixel hue by an amount to make one full revolution of the
             // color wheel (range of 65536) along the length of the strip
