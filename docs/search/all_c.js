@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['readdata_50',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readme_2emd_51',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readregister_52',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
-  ['rmt_5freserved_5fchannels_53',['rmt_reserved_channels',['../esp_8c.html#a005237af42e2c4b99fdc02869ba52ccc',1,'esp.c']]],
-  ['roffset_54',['rOffset',['../class_adafruit___neo_pixel.html#a8275f74399aea225b25aed014d740c99',1,'Adafruit_NeoPixel']]],
-  ['rp2040_2ec_55',['rp2040.c',['../rp2040_8c.html',1,'']]],
-  ['rp2040_5fpio_2eh_56',['rp2040_pio.h',['../rp2040__pio_8h.html',1,'']]],
-  ['rp2040init_57',['rp2040Init',['../rp2040_8c.html#a9983ef8e53c5384676851d7e0d2f41d8',1,'rp2040.c']]],
-  ['rp2040show_58',['rp2040Show',['../_adafruit___neo_pixel_8cpp.html#af17965c1cd8be9474682e3fe665066e6',1,'rp2040Show(uint16_t pin, uint8_t *pixels, uint32_t numBytes, uint8_t type):&#160;Adafruit_NeoPixel.cpp'],['../rp2040_8c.html#a13181fd8781cc7ad235ff161e09b9ae4',1,'rp2040Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, bool is800KHz):&#160;rp2040.c']]]
+  ['readme_2emd_48',['README.md',['../src_2libs_2_adafruit___neo_pixel_2_r_e_a_d_m_e_8md.html',1,'']]],
+  ['setbrightness_49',['setBrightness',['../class_adafruit___neo_pixel.html#aa05f7d37828c43fef00e6242dcf75959',1,'Adafruit_NeoPixel']]],
+  ['setpin_50',['setPin',['../class_adafruit___neo_pixel.html#acaf844b8acd7246b13a71e1185675386',1,'Adafruit_NeoPixel']]],
+  ['setpixelcolor_51',['setPixelColor',['../class_adafruit___neo_pixel.html#ab8763ccc6f9a090df1f753905fd5561e',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b)'],['../class_adafruit___neo_pixel.html#ac7b3529b3d190f3af5d8e5b9ead27688',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b, uint8_t w)'],['../class_adafruit___neo_pixel.html#a19fc274330c0e65907929ee03b93b1c3',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint32_t c)']]],
+  ['show_52',['show',['../class_adafruit___neo_pixel.html#a4bcda7a15591065570d3598cbf970be7',1,'Adafruit_NeoPixel']]],
+  ['sine8_53',['sine8',['../class_adafruit___neo_pixel.html#afb00024000da81bcb6378c7052f77be3',1,'Adafruit_NeoPixel']]]
 ];

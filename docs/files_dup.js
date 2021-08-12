@@ -2,10 +2,6 @@ var files_dup =
 [
     [ "Adafruit_NeoPixel.cpp", "_adafruit___neo_pixel_8cpp.html", "_adafruit___neo_pixel_8cpp" ],
     [ "Adafruit_NeoPixel.h", "_adafruit___neo_pixel_8h.html", "_adafruit___neo_pixel_8h" ],
-    [ "easyC.cpp", "easy_c_8cpp.html", null ],
-    [ "easyC.h", "easy_c_8h.html", [
-      [ "EasyC", "class_easy_c.html", "class_easy_c" ]
-    ] ],
     [ "esp.c", "esp_8c.html", "esp_8c" ],
     [ "esp8266.c", "esp8266_8c.html", "esp8266_8c" ],
     [ "kendyte_k210.c", "kendyte__k210_8c.html", "kendyte__k210_8c" ],

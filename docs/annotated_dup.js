@@ -7,6 +7,5 @@ var annotated_dup =
     [ "Original source", "index.html#autotoc_md5", null ],
     [ "Open-source license", "index.html#autotoc_md6", null ],
     [ "Adafruit_NeoPixel", "class_adafruit___neo_pixel.html", "class_adafruit___neo_pixel" ],
-    [ "EasyC", "class_easy_c.html", "class_easy_c" ],
     [ "WS2812", "class_w_s2812.html", "class_w_s2812" ]
 ];

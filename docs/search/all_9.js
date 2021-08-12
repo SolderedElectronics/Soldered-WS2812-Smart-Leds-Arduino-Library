@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['k210show_39',['k210Show',['../_adafruit___neo_pixel_8cpp.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c'],['../kendyte__k210_8c.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c']]],
-  ['kendyte_5fk210_2ec_40',['kendyte_k210.c',['../kendyte__k210_8c.html',1,'']]]
+  ['neopixeltype_33',['neoPixelType',['../_adafruit___neo_pixel_8h.html#a6ff31bc7214a3ae338a80ed6142d69ff',1,'Adafruit_NeoPixel.h']]],
+  ['numbytes_34',['numBytes',['../class_adafruit___neo_pixel.html#a89a4a144941744dc01c6e0072ad0f05d',1,'Adafruit_NeoPixel']]],
+  ['numleds_35',['numLEDs',['../class_adafruit___neo_pixel.html#ad8218520ee2ad574f805985ea2c2b0b6',1,'Adafruit_NeoPixel']]],
+  ['numpixels_36',['numPixels',['../class_adafruit___neo_pixel.html#a515921e2c768750698f199c27613a143',1,'Adafruit_NeoPixel']]]
 ];

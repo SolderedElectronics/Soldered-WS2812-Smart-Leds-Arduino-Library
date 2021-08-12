@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['readdata_120',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_121',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
-  ['rp2040init_122',['rp2040Init',['../rp2040_8c.html#a9983ef8e53c5384676851d7e0d2f41d8',1,'rp2040.c']]],
-  ['rp2040show_123',['rp2040Show',['../_adafruit___neo_pixel_8cpp.html#af17965c1cd8be9474682e3fe665066e6',1,'rp2040Show(uint16_t pin, uint8_t *pixels, uint32_t numBytes, uint8_t type):&#160;Adafruit_NeoPixel.cpp'],['../rp2040_8c.html#a13181fd8781cc7ad235ff161e09b9ae4',1,'rp2040Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, bool is800KHz):&#160;rp2040.c']]]
+  ['setbrightness_104',['setBrightness',['../class_adafruit___neo_pixel.html#aa05f7d37828c43fef00e6242dcf75959',1,'Adafruit_NeoPixel']]],
+  ['setpin_105',['setPin',['../class_adafruit___neo_pixel.html#acaf844b8acd7246b13a71e1185675386',1,'Adafruit_NeoPixel']]],
+  ['setpixelcolor_106',['setPixelColor',['../class_adafruit___neo_pixel.html#ab8763ccc6f9a090df1f753905fd5561e',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b)'],['../class_adafruit___neo_pixel.html#ac7b3529b3d190f3af5d8e5b9ead27688',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b, uint8_t w)'],['../class_adafruit___neo_pixel.html#a19fc274330c0e65907929ee03b93b1c3',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint32_t c)']]],
+  ['show_107',['show',['../class_adafruit___neo_pixel.html#a4bcda7a15591065570d3598cbf970be7',1,'Adafruit_NeoPixel']]],
+  ['sine8_108',['sine8',['../class_adafruit___neo_pixel.html#afb00024000da81bcb6378c7052f77be3',1,'Adafruit_NeoPixel']]]
 ];

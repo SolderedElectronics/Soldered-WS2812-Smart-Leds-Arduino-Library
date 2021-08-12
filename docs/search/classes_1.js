@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_85',['EasyC',['../class_easy_c.html',1,'']]]
+  ['ws2812_72',['WS2812',['../class_w_s2812.html',1,'']]]
 ];
