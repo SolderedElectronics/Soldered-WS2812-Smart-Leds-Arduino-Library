@@ -1,16 +1,16 @@
 /**
  **************************************************
- * @file        buttoncycler.ino
- * @brief       Simple demonstration on using an input device       
- * 			        to trigger changes on your NeoPixels. Wire a momentary push
- *              button to connect from ground to a digital IO pin.
- *              When the button is pressed it will change to a new
- *              pixel animation. Initial state has all pixels off -- press
- *              the button once to start the first animation. As written, the
- *              button does not interrupt an animation in-progress, it works only 
- *              when idle.
- *       
- *       
+ * @file        Strand_Test.ino
+ * @brief       A basic everyday NeoPixel strip test program.
+ *              NEOPIXEL BEST PRACTICES for most reliable operation:
+ *              Add 1000 uF CAPACITOR between NeoPixel strip's + and - connections.
+ *              MINIMIZE WIRING LENGTH between microcontroller board and first pixel.
+ *              NeoPixel strip's DATA-IN should pass through a 300-500 OHM RESISTOR.
+ *              AVOID connecting NeoPixels on a LIVE CIRCUIT. If you must, ALWAYS
+ *              connect GROUND (-) first, then +, then data.
+ *              When using a 3.3V microcontroller with a 5V-powered NeoPixel strip,
+ *              a LOGIC-LEVEL CONVERTER on the data line is STRONGLY RECOMMENDED.
+ *              (Skipping these may work OK on your workbench but can fail in the field)
  *            
  *
  * product: www.solde.red/333055, www.solde.red/333056, www.solde.red/333070, www.solde.red/333101
@@ -19,79 +19,38 @@
 
 #include "WS2812-SOLDERED.h"
 
-// Digital IO pin connected to the button. This will be driven with a
-// pull-up resistor so the switch pulls the pin to ground momentarily.
-// On a high -> low transition the button press logic will execute.
-#define BUTTON_PIN 2
+#define LED_PIN 6
 
-#define PIXEL_PIN 6 // Digital IO pin connected to the NeoPixels.
+// How many NeoPixels are attached to the Arduino?
+#define LED_COUNT 36
 
-#define PIXEL_COUNT 36 // Number of NeoPixels
-
-WS2812 strip(PIXEL_COUNT, PIXEL_PIN);
-
-boolean oldState = HIGH;
-int mode = 0; // Currently-active animation mode, 0-9
+// Declare our NeoPixel strip object:
+WS2812 strip(LED_COUNT, LED_PIN);
 
 void setup()
 {
-    pinMode(BUTTON_PIN, INPUT_PULLUP);
-    strip.begin(); // Initialize NeoPixel strip object (REQUIRED)
-    strip.show();  // Initialize all pixels to 'off'
+    strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
+    strip.show();            // Turn OFF all pixels ASAP
+    strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
 }
 
 void loop()
 {
-    // Get current button state.
-    boolean newState = digitalRead(BUTTON_PIN);
+    colorWipe(strip.Color(255, 0, 0), 50); // Red
+    colorWipe(strip.Color(0, 255, 0), 50); // Green
+    colorWipe(strip.Color(0, 0, 255), 50); // Blue
 
-    // Check if state changed from high to low (button press).
-    if ((newState == LOW) && (oldState == HIGH))
-    {
-        // Short delay to debounce button.
-        delay(20);
-        // Check if button is still low after debounce.
-        newState = digitalRead(BUTTON_PIN);
-        if (newState == LOW)
-        { // Yes, still low
-            if (++mode > 8)
-                mode = 0; // Advance to next mode, wrap around after #8
-            switch (mode)
-            { // Start the new animation...
-            case 0:
-                colorWipe(strip.Color(0, 0, 0), 50); // Black/off
-                break;
-            case 1:
-                colorWipe(strip.Color(255, 0, 0), 50); // Red
-                break;
-            case 2:
-                colorWipe(strip.Color(0, 255, 0), 50); // Green
-                break;
-            case 3:
-                colorWipe(strip.Color(0, 0, 255), 50); // Blue
-                break;
-            case 4:
-                theaterChase(strip.Color(127, 127, 127), 50); // White
-                break;
-            case 5:
-                theaterChase(strip.Color(127, 0, 0), 50); // Red
-                break;
-            case 6:
-                theaterChase(strip.Color(0, 0, 127), 50); // Blue
-                break;
-            case 7:
-                rainbow(10);
-                break;
-            case 8:
-                theaterChaseRainbow(50);
-                break;
-            }
-        }
-    }
+    theaterChase(strip.Color(127, 127, 127), 50); // White, half brightness
+    theaterChase(strip.Color(127, 0, 0), 50);     // Red, half brightness
+    theaterChase(strip.Color(0, 0, 127), 50);     // Blue, half brightness
 
-    // Set the last-read button state to the old state.
-    oldState = newState;
+    rainbow(10);
+
+    theaterChaseRainbow(50);
 }
+
+
+// Some functions of our own for creating animated effects -----------------
 
 // Fill strip pixels one after another with a color. Strip is NOT cleared
 // first; anything there will be covered pixel by pixel. Pass in color
@@ -132,11 +91,11 @@ void theaterChase(uint32_t color, int wait)
 // Rainbow cycle along whole strip. Pass delay time (in ms) between frames.
 void rainbow(int wait)
 {
-    // Hue of first pixel runs 3 complete loops through the color wheel.
+    // Hue of first pixel runs 5 complete loops through the color wheel.
     // Color wheel has a range of 65536 but it's OK if we roll over, so
-    // just count from 0 to 3*65536. Adding 256 to firstPixelHue each time
-    // means we'll make 3*65536/256 = 768 passes through this outer loop:
-    for (long firstPixelHue = 0; firstPixelHue < 3 * 65536; firstPixelHue += 256)
+    // just count from 0 to 5*65536. Adding 256 to firstPixelHue each time
+    // means we'll make 5*65536/256 = 1280 passes through this outer loop:
+    for (long firstPixelHue = 0; firstPixelHue < 5 * 65536; firstPixelHue += 256)
     {
         for (uint16_t i = 0; i < strip.numPixels(); i++)
         { // For each pixel in strip...
