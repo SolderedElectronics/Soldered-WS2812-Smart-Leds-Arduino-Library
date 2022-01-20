@@ -1,7 +1,19 @@
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
-// Released under the GPLv3 license to match the rest of the
-// Adafruit NeoPixel library
-// Original by AdaFruit Industries, modified by Soldered
+/**
+ **************************************************
+ * @file        simple.ino
+ * @brief       NeoPixel Ring simple sketch (c) 2013 Shae Erisson
+ *              Released under the GPLv3 license to match the rest of the
+ *              Adafruit NeoPixel library
+ *              Original by AdaFruit Industries, modified by Soldered
+ *       
+ *       
+ *            
+ *
+ * product: www.solde.red/333055, www.solde.red/333056, www.solde.red/333070, www.solde.red/333101
+ * @authors     Original by Adafruit, modified by Soldered
+ ***************************************************/
+
+
 
 #include "WS2812-SOLDERED.h"
 
