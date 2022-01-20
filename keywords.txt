@@ -1,10 +1,9 @@
 #######################################
 # Syntax Coloring Map For Adafruit_NeoPixel
 #######################################
-# Class
-#######################################
 
-Adafruit_NeoPixel	KEYWORD1
+Adafruit_NeoPixel KEYWORD1
+WS2812 KEYWORD1
 
 #######################################
 # Methods and Functions
@@ -68,5 +67,3 @@ NEO_BWGR		LITERAL1
 NEO_BRWG		LITERAL1
 NEO_BRGW		LITERAL1
 NEO_BGWR		LITERAL1
-NEO_BGRW		LITERAL1
-

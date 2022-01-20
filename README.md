@@ -5,7 +5,10 @@
 
 | ![WS2812 Addressable Leds](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-----------------------------------------------------------------------------------------------: |
-| [WS2812 Addressable Leds](https://www.solde.red/[_sku])                                           |
+| [Smart LED WS2812B Ring7](https://www.solde.red/333055), [Smart LED WS2812B Stick10](https://www.solde.red/333056), 
+   [Smart LED WS2812B Ring12](https://www.solde.red/333070), [Smart LED WS2812B Ring24](https://www.solde.red/333101), 
+  [Smart LED WS2812B Pixel](https://www.solde.red/333054)                                           |
+
 
 WS2812 Addressable Leds provide an easy way to control lots of leds using a single MCU pin.
 
@@ -21,7 +24,7 @@ You can find hardware design for this board in WS2812 Leds hardware repository
 
 Access Arduino library documentation [here](https://github.com/e-radionicacom/Soldered-WS2812-Smart-Leds-Arduino-Library).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the WS2812 Leds board
 - Installing an Arduino library
 
 ### About Soldered
