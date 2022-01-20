@@ -1,11 +1,19 @@
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
-// Released under the GPLv3 license to match the rest of the
-// Adafruit NeoPixel library
-// This sketch shows use of the "new" operator with Adafruit_NeoPixel.
-// It's helpful if you don't know NeoPixel settings at compile time or
-// just want to store this settings in EEPROM or a file on an SD card.
-
-// Original example by Adafruit, modified by Soldered
+/**
+ **************************************************
+ * @file        Simple_New_Operator.ino
+ * @brief       NeoPixel Ring simple sketch (c) 2013 Shae Erisson
+ *              Released under the GPLv3 license to match the rest of the
+ *              Adafruit NeoPixel library
+ *              This sketch shows use of the "new" operator with Adafruit_NeoPixel.
+ *              It's helpful if you don't know NeoPixel settings at compile time or
+ *              just want to store this settings in EEPROM or a file on an SD card.
+ *       
+ *       
+ *            
+ *
+ * product: www.solde.red/333055, www.solde.red/333056, www.solde.red/333070, www.solde.red/333101
+ * @authors     Original by Adafruit, modified by Soldered
+ ***************************************************/
 
 #include "WS2812-SOLDERED.h"
 

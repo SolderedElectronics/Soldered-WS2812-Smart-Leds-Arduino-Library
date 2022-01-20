@@ -1,5 +1,15 @@
-// NeoPixel test program showing use of the WHITE channel for RGBW
-// pixels only (won't look correct on regular RGB NeoPixel strips).
+/**
+ **************************************************
+ * @file        RGBWstrandtest.ino
+ * @brief       NeoPixel test program showing use of the WHITE channel for RGBW
+ *              pixels only (won't look correct on regular RGB NeoPixel strips).
+ *       
+ *       
+ *            
+ *
+ * product: www.solde.red/333055, www.solde.red/333056, www.solde.red/333070, www.solde.red/333101
+ * @authors     Original by Adafruit, modified by Soldered
+ ***************************************************/
 
 #include "WS2812-SOLDERED.h"
 

@@ -1,4 +1,14 @@
-// Original example by Adafruit, modified by Soldered
+/**
+ **************************************************
+ * @file        Simple_New_Operator.ino
+ * @brief       Strand Test for ring Pixels
+ *       
+ *       
+ *            
+ *
+ * product: www.solde.red/333055, www.solde.red/333056, www.solde.red/333070, www.solde.red/333101
+ * @authors     Original by Adafruit, modified by Soldered
+ ***************************************************/
 
 #include "WS2812-SOLDERED.h"
 
