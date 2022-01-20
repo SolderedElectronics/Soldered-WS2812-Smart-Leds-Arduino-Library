@@ -1142,7 +1142,7 @@ void Adafruit_NeoPixel::show(void) {
 #endif // NEO_KHZ400
 
 #else
- #error "CPU SPEED NOT SUPPORTED"
+ //#error "CPU SPEED NOT SUPPORTED"
 #endif // end F_CPU ifdefs on __AVR__
 
 // END AVR ----------------------------------------------------------------
@@ -1354,7 +1354,7 @@ void Adafruit_NeoPixel::show(void) {
       [reg]     "r"   (reg)
   );
 #else
-#error "Sorry, only 48 MHz is supported, please set Tools > CPU Speed to 48 MHz"
+//#error "Sorry, only 48 MHz is supported, please set Tools > CPU Speed to 48 MHz"
 #endif // F_CPU == 48000000
 
 // Begin of support for nRF52 based boards  -------------------------
@@ -2226,7 +2226,7 @@ void Adafruit_NeoPixel::show(void) {
   }
 
 #else
-#error Architecture not supported
+//#error Architecture not supported
 #endif
 
 
