@@ -15,7 +15,7 @@ var class_adafruit___neo_pixel =
     [ "getBrightness", "class_adafruit___neo_pixel.html#ab1b7af02712d6a1e228783a89ec12832", null ],
     [ "getPin", "class_adafruit___neo_pixel.html#ac2d69741bcce8ad0b61c66757952db8e", null ],
     [ "getPixelColor", "class_adafruit___neo_pixel.html#abccaba27e35bfae27c856e76b46c7924", null ],
-    [ "getPixels", "class_adafruit___neo_pixel.html#ab86a181ad2aef2e83cd6bcca66eaae1f", null ],
+    [ "getPixels", "class_adafruit___neo_pixel.html#ab484e9a9da6f1089091c2cda1a0841a7", null ],
     [ "numPixels", "class_adafruit___neo_pixel.html#a515921e2c768750698f199c27613a143", null ],
     [ "setBrightness", "class_adafruit___neo_pixel.html#aa05f7d37828c43fef00e6242dcf75959", null ],
     [ "setPin", "class_adafruit___neo_pixel.html#acaf844b8acd7246b13a71e1185675386", null ],

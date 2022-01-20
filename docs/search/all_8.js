@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['k210show_31',['k210Show',['../_adafruit___neo_pixel_8cpp.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c'],['../kendyte__k210_8c.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c']]],
-  ['kendyte_5fk210_2ec_32',['kendyte_k210.c',['../kendyte__k210_8c.html',1,'']]]
+  ['k210show_0',['k210Show',['../_adafruit___neo_pixel_8cpp.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c'],['../kendyte__k210_8c.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c']]],
+  ['kendyte_5fk210_2ec_1',['kendyte_k210.c',['../kendyte__k210_8c.html',1,'']]]
 ];
