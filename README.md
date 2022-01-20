@@ -5,7 +5,11 @@
 
 | ![WS2812 Addressable Leds](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-----------------------------------------------------------------------------------------------: |
-| [Smart LED WS2812B Ring7](https://www.solde.red/333055), [Smart LED WS2812B Stick10](https://www.solde.red/333056), [Smart LED WS2812B Ring12](https://www.solde.red/333070), [Smart LED WS2812B Ring24](https://www.solde.red/333101), [Smart LED WS2812B Pixel](https://www.solde.red/333054)|
+| [Smart LED WS2812B Ring7](https://www.solde.red/333055)                                           |
+| [Smart LED WS2812B Stick10](https://www.solde.red/333056)                                         |
+| [Smart LED WS2812B Ring12](https://www.solde.red/333070)                                          |
+| [Smart LED WS2812B Ring24](https://www.solde.red/333101)                                          |
+| [Smart LED WS2812B Pixel](https://www.solde.red/333054)                                           |
 
 
 WS2812 Addressable Leds provide an easy way to control lots of leds using a single MCU pin.
