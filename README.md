@@ -24,7 +24,7 @@ You can find hardware design for this board in WS2812 Leds hardware repository
 
 ### Documentation
 
-Access Arduino library documentation [here](https://github.com/e-radionicacom/Soldered-WS2812-Smart-Leds-Arduino-Library).
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-WS2812-Smart-Leds-Arduino-Library).
 
 - Tutorial for using the WS2812 Leds board
 - Installing an Arduino library
