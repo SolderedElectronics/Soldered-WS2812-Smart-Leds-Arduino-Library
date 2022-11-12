@@ -21,6 +21,11 @@ class WS2812 : public Adafruit_NeoPixel
     WS2812(int n, int m) : Adafruit_NeoPixel(n, m, NEO_GRB + NEO_KHZ800)
     {
     }
+
+    WS2812() : Adafruit_NeoPixel(1, -1, NEO_GRB + NEO_KHZ800)
+    {
+        native = 0;
+    }
 };
 
 #endif

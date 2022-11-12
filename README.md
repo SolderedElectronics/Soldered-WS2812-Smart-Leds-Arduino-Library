@@ -9,6 +9,7 @@
 | [Smart LED WS2812B Ring12](https://www.solde.red/333070)                                          |
 | [Smart LED WS2812B Ring24](https://www.solde.red/333101)                                          |
 | [Smart LED WS2812B Pixel](https://www.solde.red/333054)                                           |
+| [Smart LED WS2812B Pixel with easyC](https://www.solde.red/sku)                                   |
 
 
 WS2812 Addressable Leds provide an easy way to control lots of leds using a single MCU pin.
