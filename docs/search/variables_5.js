@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['numbytes_0',['numBytes',['../class_adafruit___neo_pixel.html#a89a4a144941744dc01c6e0072ad0f05d',1,'Adafruit_NeoPixel']]],
-  ['numleds_1',['numLEDs',['../class_adafruit___neo_pixel.html#ad8218520ee2ad574f805985ea2c2b0b6',1,'Adafruit_NeoPixel']]]
+  ['is800khz_0',['is800KHz',['../class_adafruit___neo_pixel.html#a56919a5e954b1a87ef965c75c6cc68a1',1,'Adafruit_NeoPixel']]]
 ];

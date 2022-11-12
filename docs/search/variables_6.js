@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['pin_0',['pin',['../class_adafruit___neo_pixel.html#aaa3ce258bc1ded4228bff0277101cdb5',1,'Adafruit_NeoPixel']]],
-  ['pinmask_1',['pinMask',['../class_adafruit___neo_pixel.html#a300c233cfb3d12fe2cdbf253ab08311f',1,'Adafruit_NeoPixel']]],
-  ['pixels_2',['pixels',['../class_adafruit___neo_pixel.html#a0667c23748aa7b3dc04e7c59916308cd',1,'Adafruit_NeoPixel']]],
-  ['port_3',['port',['../class_adafruit___neo_pixel.html#a2c7ec4f41ae4ea72dc621bb9551f0ba7',1,'Adafruit_NeoPixel']]]
+  ['native_0',['native',['../class_adafruit___neo_pixel.html#aceade341c8bdfa94160e66a69fb2daed',1,'Adafruit_NeoPixel']]],
+  ['numbytes_1',['numBytes',['../class_adafruit___neo_pixel.html#a89a4a144941744dc01c6e0072ad0f05d',1,'Adafruit_NeoPixel']]],
+  ['numleds_2',['numLEDs',['../class_adafruit___neo_pixel.html#ad8218520ee2ad574f805985ea2c2b0b6',1,'Adafruit_NeoPixel']]]
 ];

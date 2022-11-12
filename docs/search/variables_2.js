@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['endtime_0',['endTime',['../class_adafruit___neo_pixel.html#a1774fd792c71e961624594e0c29e4541',1,'Adafruit_NeoPixel']]]
+  ['begun_0',['begun',['../class_adafruit___neo_pixel.html#a2215c42c8ed043dc43d28592c2c1d750',1,'Adafruit_NeoPixel']]],
+  ['boffset_1',['bOffset',['../class_adafruit___neo_pixel.html#aeb2fc94bc0568778b3a643977a8b6a95',1,'Adafruit_NeoPixel']]],
+  ['brightness_2',['brightness',['../class_adafruit___neo_pixel.html#a983265c34a4008d2c7a9eeb12eebea84',1,'Adafruit_NeoPixel']]]
 ];
