@@ -122,6 +122,17 @@ void Adafruit_NeoPixel::begin(void) {
 }
 
 /*!
+  @brief   Configure NeoPixel for easyC
+*/
+void Adafruit_NeoPixel::begin(byte _addr) {
+
+    addr = _addr;
+
+    Wire.begin();
+
+}
+
+/*!
   @brief   Change the length of a previously-declared Adafruit_NeoPixel
            strip object. Old data is deallocated and new data is cleared.
            Pin number and pixel format are unchanged.
@@ -2285,9 +2296,20 @@ void Adafruit_NeoPixel::setPixelColor(
       p = &pixels[n * 4];    // 4 bytes per pixel
       p[wOffset] = 0;        // But only R,G,B passed -- set W to 0
     }
-    p[rOffset] = r;          // R,G,B always stored
-    p[gOffset] = g;
-    p[bOffset] = b;
+
+    if(native == 1) {
+      p[rOffset] = r;        // R,G,B always stored
+      p[gOffset] = g;
+      p[bOffset] = b;
+    }
+    else{
+      Wire.beginTransmission(addr);   
+      Wire.write(r);
+      Wire.write(g);
+      Wire.write(b);
+      Wire.endTransmission();
+    }
+
   }
 }
 
@@ -2349,9 +2371,17 @@ void Adafruit_NeoPixel::setPixelColor(uint16_t n, uint32_t c) {
       uint8_t w = (uint8_t)(c >> 24);
       p[wOffset] = brightness ? ((w * brightness) >> 8) : w;
     }
-    p[rOffset] = r;
-    p[gOffset] = g;
-    p[bOffset] = b;
+    if(native == 1){
+      p[rOffset] = r;          // Store R,G,B
+      p[gOffset] = g;
+      p[bOffset] = b;
+    } else{
+      Wire.beginTransmission(addr);   
+      Wire.write(r);
+      Wire.write(g);
+      Wire.write(b);
+      Wire.endTransmission();
+    }
   }
 }
 
@@ -2598,7 +2628,11 @@ uint8_t Adafruit_NeoPixel::getBrightness(void) const {
   @brief   Fill the whole NeoPixel strip with 0 / black / off.
 */
 void Adafruit_NeoPixel::clear(void) {
-  memset(pixels, 0, numBytes);
+  if(native == 1){
+    memset(pixels, 0, numBytes);
+  } else{
+    setPixelColor(0, 0, 0, 0);
+  }
 }
 
 // A 32-bit variant of gamma8() that applies the same function

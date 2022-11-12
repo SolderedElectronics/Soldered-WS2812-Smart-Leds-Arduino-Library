@@ -33,6 +33,7 @@
  *
  */
 
+
 #ifndef ADAFRUIT_NEOPIXEL_H
 #define ADAFRUIT_NEOPIXEL_H
 
@@ -47,6 +48,10 @@
 
 #ifdef TARGET_LPC1768
   #include <Arduino.h>
+#endif
+
+#if !native
+#include "Wire.h"
 #endif
 
 // The order of primary colors in the NeoPixel data stream can vary among
@@ -207,6 +212,7 @@ class Adafruit_NeoPixel {
   ~Adafruit_NeoPixel();
 
   void              begin(void);
+  void              begin(byte addr);
   void              show(void);
   void              setPin(uint16_t p);
   void              setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b);
@@ -218,6 +224,10 @@ class Adafruit_NeoPixel {
   void              clear(void);
   void              updateLength(uint16_t n);
   void              updateType(neoPixelType t);
+
+  bool native = 1;
+  byte addr = 0;
+
   /*!
     @brief   Check whether a call to show() will start sending data
              immediately or will 'block' for a required interval. NeoPixels
