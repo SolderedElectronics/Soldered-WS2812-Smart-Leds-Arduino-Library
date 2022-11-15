@@ -2,7 +2,7 @@ var searchData=
 [
   ['woffset_0',['wOffset',['../class_adafruit___neo_pixel.html#abb82afb6bb4c4e365561f18c6ff6b6a8',1,'Adafruit_NeoPixel']]],
   ['ws2812_1',['WS2812',['../class_w_s2812.html',1,'WS2812'],['../class_w_s2812.html#a7d1c66c4f180ca32771bf1a946b186b3',1,'WS2812::WS2812(int n, int m)'],['../class_w_s2812.html#a788ed225ef7655ee180930888c26b776',1,'WS2812::WS2812()']]],
-  ['ws2812_20arduino_20library_2',['WS2812 Arduino library',['../index.html',1,'']]],
+  ['ws2812_20proizvoda_20arduino_20library_2',['WS2812 PROIZVODA Arduino library',['../index.html',1,'']]],
   ['ws2812_2dsoldered_2ecpp_3',['WS2812-SOLDERED.cpp',['../_w_s2812-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
   ['ws2812_2dsoldered_2eh_4',['WS2812-SOLDERED.h',['../_w_s2812-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
   ['ws2812_5fprogram_5',['ws2812_program',['../rp2040__pio_8h.html#a55e4cbdb9411683b8a5655f4454d000c',1,'rp2040_pio.h']]],
