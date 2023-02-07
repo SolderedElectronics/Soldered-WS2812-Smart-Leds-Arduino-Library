@@ -1,8 +1,8 @@
 /**
  **************************************************
- * @file        buttoncycler.ino
+ * @file        Button_Cycler.ino
  * @brief       Simple demonstration on using an input device       
- * 			        to trigger changes on your NeoPixels. Wire a momentary push
+ * 			    to trigger changes on your NeoPixels. Wire a momentary push
  *              button to connect from ground to a digital IO pin.
  *              When the button is pressed it will change to a new
  *              pixel animation. Initial state has all pixels off -- press

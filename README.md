@@ -1,6 +1,6 @@
 # WS2812 Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![Smart LED WS2812B Pixel](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
@@ -21,6 +21,10 @@
 | ![Smart LED WS2812B Ring24](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
 | [Smart LED WS2812B Ring24](https://www.solde.red/333101)                                                       |
+
+| ![Smart LED WS2812B Ring24](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| :---------------------------------------------------------------------------------------------: |
+| [WS2812B breakout with easyC](https://www.solde.red/333187)                                                       |
 
 These small LEDs are not just ordinary lights - each is specific because it has a built-in small integrated circuit (IC) that is able to turn on the LED light in 16 million different colors. IC is WS2812 and it uses a single wire can control thousands of these LEDs. With a little imagination by putting these pixels, you get superior effects with a minimum effort. These lamps are easy to control with Croduino.
 
@@ -79,16 +83,16 @@ You can find hardware design for this board in [*Smart LED WS2812B Ring24*](http
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-WS2812-Smart-Leds-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the WS2812 pixels
 - Installing an Arduino library
 
 ### Board compatibility
 
 The library is compatible with board & microcontroller families shown in green below: 
 
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-WS2812-Smart-Leds-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/compile_test.yml)
 
 
 ### About Soldered
@@ -103,7 +107,7 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 
 ### Original source
 ​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle. 
+This library is possible thanks to original [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) library. Thank you, Adafruit. 
 
 
 ### Open-source license
