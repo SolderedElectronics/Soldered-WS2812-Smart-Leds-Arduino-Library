@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "WS2812 Soldered Arduino Library", "index.html", [
-    [ "WS2812 Arduino library", "index.html", [
-      [ "Have fun!", "index.html#autotoc_md8", null ]
-    ] ],
+    [ "WS2812 Arduino library", "index.html", "index" ],
     [ "Contribution Guidelines", "md_src_libs__adafruit__neo_pixel__c_o_n_t_r_i_b_u_t_i_n_g.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
