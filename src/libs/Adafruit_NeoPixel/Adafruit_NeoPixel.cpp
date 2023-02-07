@@ -226,6 +226,9 @@ extern "C" void  k210Show(
 */
 void Adafruit_NeoPixel::show(void) {
 
+  // Return if using easyC
+  if(native == 0) return;
+
   if(!pixels) return;
 
   // Data latch = 300+ microsecond pause in the output stream. Rather than
@@ -2303,6 +2306,7 @@ void Adafruit_NeoPixel::setPixelColor(
       p[bOffset] = b;
     }
     else{
+      // If using easyC LED, just send the colors' components
       Wire.beginTransmission(addr);   
       Wire.write(r);
       Wire.write(g);
