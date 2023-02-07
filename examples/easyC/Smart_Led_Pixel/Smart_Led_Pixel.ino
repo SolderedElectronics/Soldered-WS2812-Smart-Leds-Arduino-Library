@@ -2,7 +2,7 @@
  **************************************************
  * @file        Smart_Led_Pixel.ino
  * @brief       Simple example of controlling the WS2812B LED pixel breakout with easyC.
- *              Connect WS2812B breakout with easyC to dasduino or Inkplate board with easyC cable.
+ *              Connect WS2812B breakout with easyC to Dasduino or Inkplate board with easyC cable.
  *
  *              Don't have Dasduino/Inkplate/easyC? Get it here:
  *              Dasduino: https://soldered.com/categories/dasduino-arduino/

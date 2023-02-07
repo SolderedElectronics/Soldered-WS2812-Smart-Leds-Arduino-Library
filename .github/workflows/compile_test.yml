@@ -47,5 +47,6 @@ jobs:
           fqbn: ${{ matrix.board.fqbn }}
           libraries: |
             - source-path: ./
+            - name: Adafruit NeoPixel
           sketch-paths: |
             - ./examples/
