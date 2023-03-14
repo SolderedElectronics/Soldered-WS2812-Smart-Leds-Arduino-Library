@@ -96,8 +96,8 @@ $(document).ready(function(){initNavTree('class_adafruit___neo_pixel.html',''); 
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_adafruit___neo_pixel-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Adafruit_NeoPixel Class Reference</div></div>
 </div><!--header-->
@@ -112,11 +112,11 @@ $(document).ready(function(){initNavTree('class_adafruit___neo_pixel.html',''); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a163433471a799ba29f941032601b4a9d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a163433471a799ba29f941032601b4a9d">Adafruit_NeoPixel</a> (uint16_t n, uint16_t <a class="el" href="class_adafruit___neo_pixel.html#aaa3ce258bc1ded4228bff0277101cdb5">pin</a>=6, <a class="el" href="_adafruit___neo_pixel_8h.html#a6ff31bc7214a3ae338a80ed6142d69ff">neoPixelType</a> type=NEO_GRB+NEO_KHZ800)</td></tr>
-<tr class="memdesc:a163433471a799ba29f941032601b4a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">NeoPixel constructor when length, pin and pixel type are known at compile-time.  <br /></td></tr>
-<tr class="separator:a163433471a799ba29f941032601b4a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac61dab69181d4554be8cdde40e4bce6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#aac61dab69181d4554be8cdde40e4bce6">Adafruit_NeoPixel</a> (uint16_t n, int16_t <a class="el" href="class_adafruit___neo_pixel.html#aaa3ce258bc1ded4228bff0277101cdb5">pin</a>=6, <a class="el" href="_adafruit___neo_pixel_8h.html#a6ff31bc7214a3ae338a80ed6142d69ff">neoPixelType</a> type=NEO_GRB+NEO_KHZ800)</td></tr>
+<tr class="memdesc:aac61dab69181d4554be8cdde40e4bce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">NeoPixel constructor when length, pin and pixel type are known at compile-time.  <br /></td></tr>
+<tr class="separator:aac61dab69181d4554be8cdde40e4bce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a7ab8a0cedee029cd5330b638146ccc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a2a7ab8a0cedee029cd5330b638146ccc">Adafruit_NeoPixel</a> (void)</td></tr>
-<tr class="memdesc:a2a7ab8a0cedee029cd5330b638146ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Empty" NeoPixel constructor when length, pin and/or pixel type are not known at compile-time, and must be initialized later with <a class="el" href="class_adafruit___neo_pixel.html#a07b6949674125159484e9e02ef025f7d" title="Change the pixel format of a previously-declared Adafruit_NeoPixel strip object. If format changes fr...">updateType()</a>, <a class="el" href="class_adafruit___neo_pixel.html#a74e917093c2eb16848c4a09427680f79" title="Change the length of a previously-declared Adafruit_NeoPixel strip object. Old data is deallocated an...">updateLength()</a> and <a class="el" href="class_adafruit___neo_pixel.html#acaf844b8acd7246b13a71e1185675386" title="Set/change the NeoPixel output pin number. Previous pin, if any, is set to INPUT and the new pin is s...">setPin()</a>.  <br /></td></tr>
+<tr class="memdesc:a2a7ab8a0cedee029cd5330b638146ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Empty" NeoPixel constructor when length, pin and/or pixel type are not known at compile-time, and must be initialized later with <a class="el" href="class_adafruit___neo_pixel.html#a07b6949674125159484e9e02ef025f7d" title="Change the pixel format of a previously-declared Adafruit_NeoPixel strip object. If format changes fr...">updateType()</a>, <a class="el" href="class_adafruit___neo_pixel.html#a74e917093c2eb16848c4a09427680f79" title="Change the length of a previously-declared Adafruit_NeoPixel strip object. Old data is deallocated an...">updateLength()</a> and <a class="el" href="class_adafruit___neo_pixel.html#aa1898f089b9a4e02841cec2e63b88c33" title="Set/change the NeoPixel output pin number. Previous pin, if any, is set to INPUT and the new pin is s...">setPin()</a>.  <br /></td></tr>
 <tr class="separator:a2a7ab8a0cedee029cd5330b638146ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b1bd003a291520a367ab1712d6265c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a61b1bd003a291520a367ab1712d6265c">~Adafruit_NeoPixel</a> ()</td></tr>
 <tr class="memdesc:a61b1bd003a291520a367ab1712d6265c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate <a class="el" href="class_adafruit___neo_pixel.html" title="Class that stores state and functions for interacting with Adafruit NeoPixels and compatible devices.">Adafruit_NeoPixel</a> object, set data pin back to INPUT.  <br /></td></tr>
@@ -130,9 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4bcda7a15591065570d3598cbf970be7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a4bcda7a15591065570d3598cbf970be7">show</a> (void)</td></tr>
 <tr class="memdesc:a4bcda7a15591065570d3598cbf970be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit pixel data in RAM to NeoPixels.  <br /></td></tr>
 <tr class="separator:a4bcda7a15591065570d3598cbf970be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaf844b8acd7246b13a71e1185675386"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#acaf844b8acd7246b13a71e1185675386">setPin</a> (uint16_t p)</td></tr>
-<tr class="memdesc:acaf844b8acd7246b13a71e1185675386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set/change the NeoPixel output pin number. Previous pin, if any, is set to INPUT and the new pin is set to OUTPUT.  <br /></td></tr>
-<tr class="separator:acaf844b8acd7246b13a71e1185675386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1898f089b9a4e02841cec2e63b88c33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#aa1898f089b9a4e02841cec2e63b88c33">setPin</a> (int16_t p)</td></tr>
+<tr class="memdesc:aa1898f089b9a4e02841cec2e63b88c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set/change the NeoPixel output pin number. Previous pin, if any, is set to INPUT and the new pin is set to OUTPUT.  <br /></td></tr>
+<tr class="separator:aa1898f089b9a4e02841cec2e63b88c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8763ccc6f9a090df1f753905fd5561e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#ab8763ccc6f9a090df1f753905fd5561e">setPixelColor</a> (uint16_t n, uint8_t r, uint8_t g, uint8_t b)</td></tr>
 <tr class="memdesc:ab8763ccc6f9a090df1f753905fd5561e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a pixel's color using separate red, green and blue components. If using RGBW pixels, white will be set to 0.  <br /></td></tr>
 <tr class="separator:ab8763ccc6f9a090df1f753905fd5561e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,6 +175,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abccaba27e35bfae27c856e76b46c7924"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#abccaba27e35bfae27c856e76b46c7924">getPixelColor</a> (uint16_t n) const</td></tr>
 <tr class="memdesc:abccaba27e35bfae27c856e76b46c7924"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the color of a previously-set pixel.  <br /></td></tr>
 <tr class="separator:abccaba27e35bfae27c856e76b46c7924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a914f61b78e4d36a03c91372ceded2d46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a914f61b78e4d36a03c91372ceded2d46">rainbow</a> (uint16_t first_hue=0, int8_t reps=1, uint8_t saturation=255, uint8_t <a class="el" href="class_adafruit___neo_pixel.html#a983265c34a4008d2c7a9eeb12eebea84">brightness</a>=255, bool gammify=true)</td></tr>
+<tr class="memdesc:a914f61b78e4d36a03c91372ceded2d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill NeoPixel strip with one or more cycles of hues. Everyone loves the rainbow swirl so much, now it's canon!  <br /></td></tr>
+<tr class="separator:a914f61b78e4d36a03c91372ceded2d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -196,13 +199,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0151163f5aeaa42676bc31a978d6d666"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a0151163f5aeaa42676bc31a978d6d666">gamma32</a> (uint32_t x)</td></tr>
 <tr class="memdesc:a0151163f5aeaa42676bc31a978d6d666"><td class="mdescLeft">&#160;</td><td class="mdescRight">A gamma-correction function for 32-bit packed RGB or WRGB colors. Makes color transitions appear more perceptially correct.  <br /></td></tr>
 <tr class="separator:a0151163f5aeaa42676bc31a978d6d666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aceade341c8bdfa94160e66a69fb2daed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#aceade341c8bdfa94160e66a69fb2daed">native</a> = 1</td></tr>
-<tr class="separator:aceade341c8bdfa94160e66a69fb2daed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16520d4179a08d884b979ea3f6beb8c6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a16520d4179a08d884b979ea3f6beb8c6">addr</a> = 0</td></tr>
-<tr class="separator:a16520d4179a08d884b979ea3f6beb8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cec6fe17e75f8d607df305e2fa9db5c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_adafruit___neo_pixel_8h.html#a6ff31bc7214a3ae338a80ed6142d69ff">neoPixelType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a5cec6fe17e75f8d607df305e2fa9db5c">str2order</a> (const char *v)</td></tr>
+<tr class="memdesc:a5cec6fe17e75f8d607df305e2fa9db5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert pixel color order from string (e.g. "BGR") to NeoPixel color order constant (e.g. NEO_BGR). This may be helpful for code that initializes from text configuration rather than compile-time constants.  <br /></td></tr>
+<tr class="separator:a5cec6fe17e75f8d607df305e2fa9db5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -254,12 +253,29 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aae2d0e7eef0813f4d56e1717556046d6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#aae2d0e7eef0813f4d56e1717556046d6">gpioPin</a></td></tr>
 <tr class="memdesc:aae2d0e7eef0813f4d56e1717556046d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output GPIO PIN.  <br /></td></tr>
 <tr class="separator:aae2d0e7eef0813f4d56e1717556046d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6551bf459ad3b479c29ce3fdbb0d52bd"><td class="memItemLeft" align="right" valign="top">PIO&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a6551bf459ad3b479c29ce3fdbb0d52bd">pio</a> = pio0</td></tr>
+<tr class="separator:a6551bf459ad3b479c29ce3fdbb0d52bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26bf50a6e4bc775e67638e9a1b4efe3b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a26bf50a6e4bc775e67638e9a1b4efe3b">sm</a> = 0</td></tr>
+<tr class="separator:a26bf50a6e4bc775e67638e9a1b4efe3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003283b9db3c683606144143a8f3d8c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a003283b9db3c683606144143a8f3d8c0">init</a> = true</td></tr>
+<tr class="separator:a003283b9db3c683606144143a8f3d8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceade341c8bdfa94160e66a69fb2daed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#aceade341c8bdfa94160e66a69fb2daed">native</a> = 1</td></tr>
+<tr class="separator:aceade341c8bdfa94160e66a69fb2daed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16520d4179a08d884b979ea3f6beb8c6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a16520d4179a08d884b979ea3f6beb8c6">addr</a> = 0</td></tr>
+<tr class="separator:a16520d4179a08d884b979ea3f6beb8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a8d93f547ad09ff0c1446ad12771f26fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a8d93f547ad09ff0c1446ad12771f26fd">rp2040Init</a> (uint8_t <a class="el" href="class_adafruit___neo_pixel.html#aaa3ce258bc1ded4228bff0277101cdb5">pin</a>, bool <a class="el" href="class_adafruit___neo_pixel.html#a56919a5e954b1a87ef965c75c6cc68a1">is800KHz</a>)</td></tr>
+<tr class="separator:a8d93f547ad09ff0c1446ad12771f26fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabab271a3f30b583247681441d89e5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#afabab271a3f30b583247681441d89e5b">rp2040Show</a> (uint8_t <a class="el" href="class_adafruit___neo_pixel.html#aaa3ce258bc1ded4228bff0277101cdb5">pin</a>, uint8_t *<a class="el" href="class_adafruit___neo_pixel.html#a0667c23748aa7b3dc04e7c59916308cd">pixels</a>, uint32_t <a class="el" href="class_adafruit___neo_pixel.html#a89a4a144941744dc01c6e0072ad0f05d">numBytes</a>, bool <a class="el" href="class_adafruit___neo_pixel.html#a56919a5e954b1a87ef965c75c6cc68a1">is800KHz</a>)</td></tr>
+<tr class="separator:afabab271a3f30b583247681441d89e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class that stores state and functions for interacting with Adafruit NeoPixels and compatible devices. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a163433471a799ba29f941032601b4a9d" name="a163433471a799ba29f941032601b4a9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a163433471a799ba29f941032601b4a9d">&#9670;&#160;</a></span>Adafruit_NeoPixel() <span class="overload">[1/2]</span></h2>
+<a id="aac61dab69181d4554be8cdde40e4bce6" name="aac61dab69181d4554be8cdde40e4bce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac61dab69181d4554be8cdde40e4bce6">&#9670;&#160;</a></span>Adafruit_NeoPixel() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,7 +289,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>p</em> = <code>6</code>, </td>
         </tr>
         <tr>
@@ -319,7 +335,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>"Empty" NeoPixel constructor when length, pin and/or pixel type are not known at compile-time, and must be initialized later with <a class="el" href="class_adafruit___neo_pixel.html#a07b6949674125159484e9e02ef025f7d" title="Change the pixel format of a previously-declared Adafruit_NeoPixel strip object. If format changes fr...">updateType()</a>, <a class="el" href="class_adafruit___neo_pixel.html#a74e917093c2eb16848c4a09427680f79" title="Change the length of a previously-declared Adafruit_NeoPixel strip object. Old data is deallocated an...">updateLength()</a> and <a class="el" href="class_adafruit___neo_pixel.html#acaf844b8acd7246b13a71e1185675386" title="Set/change the NeoPixel output pin number. Previous pin, if any, is set to INPUT and the new pin is s...">setPin()</a>. </p>
+<p>"Empty" NeoPixel constructor when length, pin and/or pixel type are not known at compile-time, and must be initialized later with <a class="el" href="class_adafruit___neo_pixel.html#a07b6949674125159484e9e02ef025f7d" title="Change the pixel format of a previously-declared Adafruit_NeoPixel strip object. If format changes fr...">updateType()</a>, <a class="el" href="class_adafruit___neo_pixel.html#a74e917093c2eb16848c4a09427680f79" title="Change the length of a previously-declared Adafruit_NeoPixel strip object. Old data is deallocated an...">updateLength()</a> and <a class="el" href="class_adafruit___neo_pixel.html#aa1898f089b9a4e02841cec2e63b88c33" title="Set/change the NeoPixel output pin number. Previous pin, if any, is set to INPUT and the new pin is s...">setPin()</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_adafruit___neo_pixel.html" title="Class that stores state and functions for interacting with Adafruit NeoPixels and compatible devices.">Adafruit_NeoPixel</a> object. Call the <a class="el" href="class_adafruit___neo_pixel.html#ac1cb16509be644232ce0e28d250083da" title="Configure NeoPixel pin for output.">begin()</a> function before use. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This function is deprecated, here only for old projects that may still be calling it. New projects should instead use the 'new' keyword with the first constructor syntax (length, pin, type). </dd></dl>
 
@@ -852,6 +868,148 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a914f61b78e4d36a03c91372ceded2d46" name="a914f61b78e4d36a03c91372ceded2d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a914f61b78e4d36a03c91372ceded2d46">&#9670;&#160;</a></span>rainbow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Adafruit_NeoPixel::rainbow </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>first_hue</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>reps</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>saturation</em> = <code>255</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>brightness</em> = <code>255</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>gammify</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill NeoPixel strip with one or more cycles of hues. Everyone loves the rainbow swirl so much, now it's canon! </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first_hue</td><td>Hue of first pixel, 0-65535, representing one full cycle of the color wheel. Each subsequent pixel will be offset to complete one or more cycles over the length of the strip. </td></tr>
+    <tr><td class="paramname">reps</td><td>Number of cycles of the color wheel over the length of the strip. Default is 1. Negative values can be used to reverse the hue order. </td></tr>
+    <tr><td class="paramname">saturation</td><td>Saturation (optional), 0-255 = gray to pure hue, default = 255. </td></tr>
+    <tr><td class="paramname">brightness</td><td>Brightness/value (optional), 0-255 = off to max, default = 255. This is distinct and in combination with any configured global strip brightness. </td></tr>
+    <tr><td class="paramname">gammify</td><td>If true (default), apply gamma correction to colors for better appearance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8d93f547ad09ff0c1446ad12771f26fd" name="a8d93f547ad09ff0c1446ad12771f26fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d93f547ad09ff0c1446ad12771f26fd">&#9670;&#160;</a></span>rp2040Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Adafruit_NeoPixel::rp2040Init </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is800KHz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afabab271a3f30b583247681441d89e5b" name="afabab271a3f30b583247681441d89e5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afabab271a3f30b583247681441d89e5b">&#9670;&#160;</a></span>rp2040Show()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Adafruit_NeoPixel::rp2040Show </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pixels</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>numBytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is800KHz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa05f7d37828c43fef00e6242dcf75959" name="aa05f7d37828c43fef00e6242dcf75959"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa05f7d37828c43fef00e6242dcf75959">&#9670;&#160;</a></span>setBrightness()</h2>
 
@@ -879,8 +1037,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acaf844b8acd7246b13a71e1185675386" name="acaf844b8acd7246b13a71e1185675386"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaf844b8acd7246b13a71e1185675386">&#9670;&#160;</a></span>setPin()</h2>
+<a id="aa1898f089b9a4e02841cec2e63b88c33" name="aa1898f089b9a4e02841cec2e63b88c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1898f089b9a4e02841cec2e63b88c33">&#9670;&#160;</a></span>setPin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -888,7 +1046,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Adafruit_NeoPixel::setPin </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1107,6 +1265,42 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5cec6fe17e75f8d607df305e2fa9db5c" name="a5cec6fe17e75f8d607df305e2fa9db5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cec6fe17e75f8d607df305e2fa9db5c">&#9670;&#160;</a></span>str2order()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_adafruit___neo_pixel_8h.html#a6ff31bc7214a3ae338a80ed6142d69ff">neoPixelType</a> Adafruit_NeoPixel::str2order </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert pixel color order from string (e.g. "BGR") to NeoPixel color order constant (e.g. NEO_BGR). This may be helpful for code that initializes from text configuration rather than compile-time constants. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Input string. Should be reasonably sanitized (a 3- or 4- character NUL-terminated string) or undefined behavior may result (output is still a valid NeoPixel order constant, but might not present as expected). Garbage in, garbage out. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>One of the NeoPixel color order constants (e.g. NEO_BGR). NEO_KHZ400 or NEO_KHZ800 bits are not included, nor needed (all NeoPixels actually support 800 KHz it's been found, and this is the default state if no KHZ bits set). </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function is declared static in the class so it can be called without a NeoPixel object (since it's not likely been declared in the code yet). Use <a class="el" href="class_adafruit___neo_pixel.html#a5cec6fe17e75f8d607df305e2fa9db5c" title="Convert pixel color order from string (e.g. &quot;BGR&quot;) to NeoPixel color order constant (e....">Adafruit_NeoPixel::str2order()</a>. </dd></dl>
+
+</div>
+</div>
 <a id="a74e917093c2eb16848c4a09427680f79" name="a74e917093c2eb16848c4a09427680f79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74e917093c2eb16848c4a09427680f79">&#9670;&#160;</a></span>updateLength()</h2>
 
@@ -1167,11 +1361,19 @@ Protected Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">byte Adafruit_NeoPixel::addr = 0</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1344,6 +1546,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a003283b9db3c683606144143a8f3d8c0" name="a003283b9db3c683606144143a8f3d8c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a003283b9db3c683606144143a8f3d8c0">&#9670;&#160;</a></span>init</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Adafruit_NeoPixel::init = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a56919a5e954b1a87ef965c75c6cc68a1" name="a56919a5e954b1a87ef965c75c6cc68a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56919a5e954b1a87ef965c75c6cc68a1">&#9670;&#160;</a></span>is800KHz</h2>
 
@@ -1373,11 +1597,19 @@ Protected Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool Adafruit_NeoPixel::native = 1</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1478,6 +1710,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6551bf459ad3b479c29ce3fdbb0d52bd" name="a6551bf459ad3b479c29ce3fdbb0d52bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6551bf459ad3b479c29ce3fdbb0d52bd">&#9670;&#160;</a></span>pio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PIO Adafruit_NeoPixel::pio = pio0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0667c23748aa7b3dc04e7c59916308cd" name="a0667c23748aa7b3dc04e7c59916308cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0667c23748aa7b3dc04e7c59916308cd">&#9670;&#160;</a></span>pixels</h2>
 
@@ -1550,6 +1804,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a26bf50a6e4bc775e67638e9a1b4efe3b" name="a26bf50a6e4bc775e67638e9a1b4efe3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26bf50a6e4bc775e67638e9a1b4efe3b">&#9670;&#160;</a></span>sm</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Adafruit_NeoPixel::sm = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abb82afb6bb4c4e365561f18c6ff6b6a8" name="abb82afb6bb4c4e365561f18c6ff6b6a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb82afb6bb4c4e365561f18c6ff6b6a8">&#9670;&#160;</a></span>wOffset</h2>
 
@@ -1586,7 +1862,7 @@ Protected Attributes</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a></li>
         <li class="footer">
-            Generated on Wed Feb 15 2023 10:10:52 for WS2812 Soldered Arduino Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Tue Mar 14 2023 09:14:13 for WS2812 Soldered Arduino Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.6.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

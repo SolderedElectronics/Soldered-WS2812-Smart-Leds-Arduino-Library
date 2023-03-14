@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['woffset_0',['wOffset',['../class_adafruit___neo_pixel.html#abb82afb6bb4c4e365561f18c6ff6b6a8',1,'Adafruit_NeoPixel']]],
-  ['ws2812_5fprogram_1',['ws2812_program',['../rp2040__pio_8h.html#a55e4cbdb9411683b8a5655f4454d000c',1,'rp2040_pio.h']]],
-  ['ws2812_5fprogram_5finstructions_2',['ws2812_program_instructions',['../rp2040__pio_8h.html#a5b57b783765a7b5cc24fc330edcfe167',1,'rp2040_pio.h']]]
+  ['t0h_5fticks_0',['t0h_ticks',['../esp_8c.html#ac05a3164c400d8f2b6ecffb1cbc29276',1,'esp.c']]],
+  ['t0l_5fticks_1',['t0l_ticks',['../esp_8c.html#af24bd33af77eb7931004e558fff74b83',1,'esp.c']]],
+  ['t1h_5fticks_2',['t1h_ticks',['../esp_8c.html#a3614f9cf12f48a7235b2f6ad9c6f342d',1,'esp.c']]],
+  ['t1l_5fticks_3',['t1l_ticks',['../esp_8c.html#ae7944da59c45437e686ea5acc237cc12',1,'esp.c']]]
 ];
