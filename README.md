@@ -4,23 +4,19 @@
 
 | ![Smart LED WS2812B Pixel](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-----------------------------------------------------------------------------------------------: |
-
-| [Smart LED WS2812B Pixel](https://www.solde.red/333054)
+|                [Smart LED WS2812B Pixel](https://www.solde.red/333054)                            |
 
 | ![Smart LED WS2812B Ring7](https://github.com/SolderedElectronics/Smart-LED-WS2812B-Ring7-hardware-design/blob/main/OUTPUTS/V1.1.1/333055.jpg) |
 | :--------------------------------------------------------------------------------------------------------------------------------------------: |
-
-| [Smart LED WS2812B Ring7](https://www.solde.red/333055)
+|                                   [Smart LED WS2812B Ring7](https://www.solde.red/333055)                                                      |
 
 | ![Smart LED WS2812B Stick10](https://github.com/SolderedElectronics/Smart-LED-WS2812B-Stick10-hardware-design/blob/main/OUTPUTS/V1.0.0/333056.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------: |
-
-| [Smart LED WS2812B Stick10](https://www.solde.red/333056)
+|                                    [Smart LED WS2812B Stick10](https://www.solde.red/333056)                                                       |
 
 | ![Smart LED WS2812B Ring12](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------: |
-
-| [Smart LED WS2812B Ring12](https://www.solde.red/333070)
+|                   [Smart LED WS2812B Ring12](https://www.solde.red/333070)                         |
 
 | ![Smart LED WS2812B Ring24](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------: |
