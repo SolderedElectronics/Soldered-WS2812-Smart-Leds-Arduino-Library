@@ -50,9 +50,6 @@ void loop()
         led.show();
         colorChange = 0;
     }
-
-    // Wait a bit
-    delay(10);
 }
 
 // A function that runs when attiny receives any data on I2C

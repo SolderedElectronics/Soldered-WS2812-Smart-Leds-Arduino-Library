@@ -3236,29 +3236,31 @@ void Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t 
             g = (g * brightness) >> 8;
             b = (b * brightness) >> 8;
         }
-        uint8_t *p;
-        if (wOffset == rOffset)
-        {                       // Is an RGB-type strip
-            p = &pixels[n * 3]; // 3 bytes per pixel
-        }
-        else
-        {                       // Is a WRGB-type strip
-            p = &pixels[n * 4]; // 4 bytes per pixel
-            p[wOffset] = 0;     // But only R,G,B passed -- set W to 0
-        }
-        if (native == 1)
-        {
-            p[rOffset] = r; // Store R,G,B
-            p[gOffset] = g;
-            p[bOffset] = b;
-        }
-        else
+
+        if (native == 0)
         {
             Wire.beginTransmission(addr);
             Wire.write(r);
             Wire.write(g);
             Wire.write(b);
             Wire.endTransmission();
+        }
+        else
+        {
+            uint8_t *p;
+            if (wOffset == rOffset)
+            {                       // Is an RGB-type strip
+                p = &pixels[n * 3]; // 3 bytes per pixel
+            }
+            else
+            {                       // Is a WRGB-type strip
+                p = &pixels[n * 4]; // 4 bytes per pixel
+                p[wOffset] = 0;     // But only R,G,B passed -- set W to 0
+            }
+
+            p[rOffset] = r; // Store R,G,B
+            p[gOffset] = g;
+            p[bOffset] = b;
         }
     }
 }
@@ -3330,29 +3332,31 @@ void Adafruit_NeoPixel::setPixelColor(uint16_t n, uint32_t c)
             g = (g * brightness) >> 8;
             b = (b * brightness) >> 8;
         }
-        if (wOffset == rOffset)
-        {
-            p = &pixels[n * 3];
-        }
-        else
-        {
-            p = &pixels[n * 4];
-            uint8_t w = (uint8_t)(c >> 24);
-            p[wOffset] = brightness ? ((w * brightness) >> 8) : w;
-        }
-        if (native == 1)
-        {
-            p[rOffset] = r; // R,G,B always stored
-            p[gOffset] = g;
-            p[bOffset] = b;
-        }
-        else
+
+        if (native == 0)
         {
             Wire.beginTransmission(addr);
             Wire.write(r);
             Wire.write(g);
             Wire.write(b);
             Wire.endTransmission();
+        }
+        else
+        {
+            if (wOffset == rOffset)
+            {
+                p = &pixels[n * 3];
+            }
+            else
+            {
+                p = &pixels[n * 4];
+                uint8_t w = (uint8_t)(c >> 24);
+                p[wOffset] = brightness ? ((w * brightness) >> 8) : w;
+            }
+
+            p[rOffset] = r; // R,G,B always stored
+            p[gOffset] = g;
+            p[bOffset] = b;
         }
     }
 }
