@@ -57,8 +57,8 @@ void loop()
     // Increment the color index
     i++;
 
-    // There are only 3 colors, so reset the index after it reaches 3
-    if (i > 3)
+    // There are only 3 colors, so reset the index after it reaches 2 (indexes are 0, 1, 2)
+    if (i > 2)
     {
         i = 0;
     }
