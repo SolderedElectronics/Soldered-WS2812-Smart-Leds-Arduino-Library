@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1898f089b9a4e02841cec2e63b88c33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#aa1898f089b9a4e02841cec2e63b88c33">setPin</a> (int16_t p)</td></tr>
 <tr class="memdesc:aa1898f089b9a4e02841cec2e63b88c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set/change the NeoPixel output pin number. Previous pin, if any, is set to INPUT and the new pin is set to OUTPUT.  <br /></td></tr>
 <tr class="separator:aa1898f089b9a4e02841cec2e63b88c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608d36d899a0eff75712c6bbe4376b10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a608d36d899a0eff75712c6bbe4376b10">sendColorI2C</a> (uint8_t r, uint8_t g, uint8_t b)</td></tr>
+<tr class="separator:a608d36d899a0eff75712c6bbe4376b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8763ccc6f9a090df1f753905fd5561e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#ab8763ccc6f9a090df1f753905fd5561e">setPixelColor</a> (uint16_t n, uint8_t r, uint8_t g, uint8_t b)</td></tr>
 <tr class="memdesc:ab8763ccc6f9a090df1f753905fd5561e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a pixel's color using separate red, green and blue components. If using RGBW pixels, white will be set to 0.  <br /></td></tr>
 <tr class="separator:ab8763ccc6f9a090df1f753905fd5561e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,7 +263,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a003283b9db3c683606144143a8f3d8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aceade341c8bdfa94160e66a69fb2daed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#aceade341c8bdfa94160e66a69fb2daed">native</a> = 1</td></tr>
 <tr class="separator:aceade341c8bdfa94160e66a69fb2daed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16520d4179a08d884b979ea3f6beb8c6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a16520d4179a08d884b979ea3f6beb8c6">addr</a> = 0</td></tr>
+<tr class="memitem:a16520d4179a08d884b979ea3f6beb8c6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___neo_pixel.html#a16520d4179a08d884b979ea3f6beb8c6">addr</a> = 0x30</td></tr>
 <tr class="separator:a16520d4179a08d884b979ea3f6beb8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -1010,6 +1012,40 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a608d36d899a0eff75712c6bbe4376b10" name="a608d36d899a0eff75712c6bbe4376b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608d36d899a0eff75712c6bbe4376b10">&#9670;&#160;</a></span>sendColorI2C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Adafruit_NeoPixel::sendColorI2C </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa05f7d37828c43fef00e6242dcf75959" name="aa05f7d37828c43fef00e6242dcf75959"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa05f7d37828c43fef00e6242dcf75959">&#9670;&#160;</a></span>setBrightness()</h2>
 
@@ -1366,7 +1402,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">byte Adafruit_NeoPixel::addr = 0</td>
+          <td class="memname">byte Adafruit_NeoPixel::addr = 0x30</td>
         </tr>
       </table>
   </td>
@@ -1862,7 +1898,7 @@ Private Member Functions</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a></li>
         <li class="footer">
-            Generated on Fri Mar 17 2023 06:50:36 for WS2812 Soldered Arduino Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Sat Mar 18 2023 11:54:23 for WS2812 Soldered Arduino Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.6.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

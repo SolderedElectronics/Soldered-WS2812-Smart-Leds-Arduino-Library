@@ -21,6 +21,7 @@ var class_adafruit___neo_pixel =
     [ "rainbow", "class_adafruit___neo_pixel.html#a914f61b78e4d36a03c91372ceded2d46", null ],
     [ "rp2040Init", "class_adafruit___neo_pixel.html#a8d93f547ad09ff0c1446ad12771f26fd", null ],
     [ "rp2040Show", "class_adafruit___neo_pixel.html#afabab271a3f30b583247681441d89e5b", null ],
+    [ "sendColorI2C", "class_adafruit___neo_pixel.html#a608d36d899a0eff75712c6bbe4376b10", null ],
     [ "setBrightness", "class_adafruit___neo_pixel.html#aa05f7d37828c43fef00e6242dcf75959", null ],
     [ "setPin", "class_adafruit___neo_pixel.html#aa1898f089b9a4e02841cec2e63b88c33", null ],
     [ "setPixelColor", "class_adafruit___neo_pixel.html#a19fc274330c0e65907929ee03b93b1c3", null ],
