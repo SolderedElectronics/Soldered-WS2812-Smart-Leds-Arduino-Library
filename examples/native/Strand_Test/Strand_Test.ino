@@ -26,7 +26,7 @@
 #include "WS2812-SOLDERED.h"
 
 // Which pin on the Dasduino is connected to the NeoPixels?
-#define LED_PIN PA5 // If you are using Dasduino Lite, you must specify that pin as PA6
+#define LED_PIN 6 // If you are using Dasduino Lite, you must specify that pin as PA6
 
 // How many NeoPixels are attached to the Dasduino?
 #define LED_COUNT 10
