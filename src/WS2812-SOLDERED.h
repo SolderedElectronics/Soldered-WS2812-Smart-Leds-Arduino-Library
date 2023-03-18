@@ -13,8 +13,26 @@
 #define __WS2812_SOLDERED__
 
 #include "Arduino.h"
-#include "libs/Adafruit_NeoPixel/Adafruit_NeoPixel.h"
 
+#if defined(ARDUINO_AVR_ATtiny1604)
+
+#include "libs/tinyNeoPixel/tinyNeoPixel.h"
+class WS2812 : public tinyNeoPixel
+{
+  public:
+    WS2812(int n, int m) : tinyNeoPixel(n, m, NEO_GRB + NEO_KHZ800)
+    {
+    }
+
+    WS2812() : tinyNeoPixel(1, -1, NEO_GRB + NEO_KHZ800)
+    {
+        native = 0;
+    }
+};
+
+#else
+
+#include "libs/Adafruit_NeoPixel/Adafruit_NeoPixel.h"
 class WS2812 : public Adafruit_NeoPixel
 {
   public:
@@ -29,3 +47,5 @@ class WS2812 : public Adafruit_NeoPixel
 };
 
 #endif
+
+#endif // __WS2812_SOLDERED__

@@ -45,6 +45,8 @@
 
 #include "Adafruit_NeoPixel.h"
 
+#if !defined(ARDUINO_AVR_ATtiny1604)
+
 #if defined(TARGET_LPC1768)
 #include <time.h>
 #endif
@@ -146,6 +148,15 @@ void Adafruit_NeoPixel::begin(byte _addr)
 {
     addr = _addr;
     Wire.begin();
+}
+
+void Adafruit_NeoPixel::sendColorI2C(uint8_t r, uint8_t g, uint8_t b)
+{
+    Wire.beginTransmission(addr);
+    Wire.write(r);
+    Wire.write(g);
+    Wire.write(b);
+    Wire.endTransmission();
 }
 
 /*!
@@ -3239,11 +3250,7 @@ void Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t 
 
         if (native == 0)
         {
-            Wire.beginTransmission(addr);
-            Wire.write(r);
-            Wire.write(g);
-            Wire.write(b);
-            Wire.endTransmission();
+            sendColorI2C(r, g, b);
         }
         else
         {
@@ -3287,29 +3294,26 @@ void Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t 
             b = (b * brightness) >> 8;
             w = (w * brightness) >> 8;
         }
-        uint8_t *p;
-        if (wOffset == rOffset)
-        {                       // Is an RGB-type strip
-            p = &pixels[n * 3]; // 3 bytes per pixel (ignore W)
+        if (native == 0)
+        {
+            sendColorI2C(r, g, b);
         }
         else
-        {                       // Is a WRGB-type strip
-            p = &pixels[n * 4]; // 4 bytes per pixel
-            p[wOffset] = w;     // Store W
-        }
-        if (native == 1)
         {
+            uint8_t *p;
+            if (wOffset == rOffset)
+            {                       // Is an RGB-type strip
+                p = &pixels[n * 3]; // 3 bytes per pixel (ignore W)
+            }
+            else
+            {                       // Is a WRGB-type strip
+                p = &pixels[n * 4]; // 4 bytes per pixel
+                p[wOffset] = w;     // Store W
+            }
+
             p[rOffset] = r; // R,G,B always stored
             p[gOffset] = g;
             p[bOffset] = b;
-        }
-        else
-        {
-            Wire.beginTransmission(addr);
-            Wire.write(r);
-            Wire.write(g);
-            Wire.write(b);
-            Wire.endTransmission();
         }
     }
 }
@@ -3335,11 +3339,7 @@ void Adafruit_NeoPixel::setPixelColor(uint16_t n, uint32_t c)
 
         if (native == 0)
         {
-            Wire.beginTransmission(addr);
-            Wire.write(r);
-            Wire.write(g);
-            Wire.write(b);
-            Wire.endTransmission();
+            sendColorI2C(r, g, b);
         }
         else
         {
@@ -3736,3 +3736,5 @@ neoPixelType Adafruit_NeoPixel::str2order(const char *v)
         w = r; // If 'w' not specified, duplicate r bits
     return (w << 6) | (r << 4) | ((g & 3) << 2) | (b & 3);
 }
+
+#endif

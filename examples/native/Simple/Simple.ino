@@ -17,9 +17,9 @@
 
 #include "WS2812-SOLDERED.h"
 
-// Which pin on the Arduino is connected to the NeoPixels?
-#define PIN       6
-#define NUMPIXELS 36
+// Which pin on the Dasduino is connected to the NeoPixels?
+#define PIN       6 // If you are using Dasduino Lite, you must specify that pin as PA6
+#define NUMPIXELS 10
 
 WS2812 pixels(NUMPIXELS, PIN);
 

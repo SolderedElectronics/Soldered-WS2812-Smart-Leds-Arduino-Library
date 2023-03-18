@@ -23,14 +23,13 @@
 
 // Original example by Adafruit, modified by Soldered
 
-
-
 #include "WS2812-SOLDERED.h"
 
-#define LED_PIN 6
+// Which pin on the Dasduino is connected to the NeoPixels?
+#define LED_PIN PA5 // If you are using Dasduino Lite, you must specify that pin as PA6
 
-// How many NeoPixels are attached to the Arduino?
-#define LED_COUNT 36
+// How many NeoPixels are attached to the Dasduino?
+#define LED_COUNT 10
 
 // Declare our NeoPixel strip object:
 WS2812 strip(LED_COUNT, LED_PIN);

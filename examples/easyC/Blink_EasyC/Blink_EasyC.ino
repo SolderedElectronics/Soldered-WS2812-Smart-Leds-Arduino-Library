@@ -32,11 +32,11 @@ void setup()
 
 void loop()
 {
-    // Make color variable - arguments are r, g and b vomponent
+    // Make a color variable, arguments are: r, g and b component
     uint32_t color = pixel.Color(255, 0, 150); 
 
-    // Set the pixel color to the color passed in the function
-    pixel.setPixelColor(0, color);
+    // Set the pixel color 
+    pixel.setPixelColor(0, color); 
 
     // Delay before turning off the pixel
     delay(500);

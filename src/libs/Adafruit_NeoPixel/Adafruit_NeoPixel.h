@@ -39,6 +39,8 @@
 #ifndef ADAFRUIT_NEOPIXEL_H
 #define ADAFRUIT_NEOPIXEL_H
 
+#if !defined(ARDUINO_AVR_ATtiny1604)
+
 #ifdef ARDUINO
 #if (ARDUINO >= 100)
 #include <Arduino.h>
@@ -220,6 +222,7 @@ class Adafruit_NeoPixel
     void begin(byte addr);
     void show(void);
     void setPin(int16_t p);
+    void sendColorI2C(uint8_t r, uint8_t g, uint8_t b);
     void setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b);
     void setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b, uint8_t w);
     void setPixelColor(uint16_t n, uint32_t c);
@@ -421,7 +424,8 @@ class Adafruit_NeoPixel
 #endif
 
     bool native = 1;
-    byte addr = 0;
+    byte addr = 0x30;
 };
 
+#endif
 #endif // ADAFRUIT_NEOPIXEL_H

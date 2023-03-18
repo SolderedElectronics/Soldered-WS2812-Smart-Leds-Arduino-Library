@@ -17,16 +17,16 @@
 
 #include "WS2812-SOLDERED.h"
 
-// Which pin on the Arduino is connected to the NeoPixels?
-int pin = 6; // On Trinket or Gemma, suggest changing this to 1
+// Which pin on the Dasduino is connected to the NeoPixels?
+int pin = 6; // If you are using Dasduino Lite, you must specify that pin as PA6
 
-// How many NeoPixels are attached to the Arduino?
-int numPixels = 36; // Popular NeoPixel ring size
+// How many NeoPixels are attached to the Dasduino?
+int numPixels = 10; // Popular NeoPixel ring size
 
 
 // Rather than declaring the whole NeoPixel object here, we just create
 // a pointer for one, which we'll then allocate later...
-Adafruit_NeoPixel *pixels;
+WS2812 *pixels;
 
 #define DELAYVAL 500 // Time (in milliseconds) to pause between pixels
 

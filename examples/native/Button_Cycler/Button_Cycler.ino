@@ -22,11 +22,12 @@
 // Digital IO pin connected to the button. This will be driven with a
 // pull-up resistor so the switch pulls the pin to ground momentarily.
 // On a high -> low transition the button press logic will execute.
-#define BUTTON_PIN 2
+#define BUTTON_PIN 2 // If you are using Dasduino Lite, you must specify that pin as PA6
 
-#define PIXEL_PIN 6 // Digital IO pin connected to the NeoPixels.
+// Digital IO pin connected to the NeoPixels. 
+#define PIXEL_PIN 6 // If you are using Dasduino Lite, you must specify that pin as PA6
 
-#define PIXEL_COUNT 36 // Number of NeoPixels
+#define PIXEL_COUNT 10 // Number of NeoPixels
 
 WS2812 strip(PIXEL_COUNT, PIXEL_PIN);
 
