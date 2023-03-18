@@ -13,12 +13,12 @@
 
 #include "WS2812-SOLDERED.h"
 
-// Which pin on the Arduino is connected to the NeoPixels?
+// Which pin on the Dasduino is connected to the NeoPixels?
 // On a Trinket or Gemma we suggest changing this to 1:
-#define LED_PIN 6
+#define LED_PIN 6 // If you are using Dasduino Lite, you must specify that pin as PA6
 
-// How many NeoPixels are attached to the Arduino?
-#define LED_COUNT 60
+// How many NeoPixels are attached to the Dasduino?
+#define LED_COUNT 10
 
 // NeoPixel brightness, 0 (min) to 255 (max)
 #define BRIGHTNESS 50 // Set BRIGHTNESS to about 1/5 (max = 255)
