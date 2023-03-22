@@ -44,6 +44,8 @@
   You should have received a copy of the GNU Lesser General Public
   License along with NeoPixel.  If not, see
   <http://www.gnu.org/licenses/>.
+
+  Modified by Soldered, 21 March 2023
   -------------------------------------------------------------------------*/
 
 #if defined(ARDUINO_AVR_ATtiny1604)
