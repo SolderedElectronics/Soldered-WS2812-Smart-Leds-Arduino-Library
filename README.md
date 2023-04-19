@@ -1,6 +1,8 @@
 # WS2812 Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/arduino_lint.yml)
+
 
 | ![Smart LED WS2812B Pixel](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-----------------------------------------------------------------------------------------------: |
