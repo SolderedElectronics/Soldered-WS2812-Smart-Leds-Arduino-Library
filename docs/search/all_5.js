@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fill_0',['fill',['../class_adafruit___neo_pixel.html#a310844b3e5580056edf52ce3268d8084',1,'Adafruit_NeoPixel']]]
+  ['design_0',['Hardware design',['../index.html#autotoc_md2',1,'']]],
+  ['documentation_1',['Documentation',['../index.html#autotoc_md3',1,'']]]
 ];

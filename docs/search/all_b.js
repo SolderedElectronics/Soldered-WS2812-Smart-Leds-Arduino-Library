@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['pin_0',['pin',['../class_adafruit___neo_pixel.html#aaa3ce258bc1ded4228bff0277101cdb5',1,'Adafruit_NeoPixel']]],
-  ['pinmask_1',['pinMask',['../class_adafruit___neo_pixel.html#a300c233cfb3d12fe2cdbf253ab08311f',1,'Adafruit_NeoPixel']]],
-  ['pio_2',['pio',['../class_adafruit___neo_pixel.html#a6551bf459ad3b479c29ce3fdbb0d52bd',1,'Adafruit_NeoPixel']]],
-  ['pixels_3',['pixels',['../class_adafruit___neo_pixel.html#a0667c23748aa7b3dc04e7c59916308cd',1,'Adafruit_NeoPixel']]],
-  ['port_4',['port',['../class_adafruit___neo_pixel.html#a2c7ec4f41ae4ea72dc621bb9551f0ba7',1,'Adafruit_NeoPixel']]]
+  ['k210show_0',['k210Show',['../_adafruit___neo_pixel_8cpp.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c'],['../kendyte__k210_8c.html#a5e20f04cb6947f1aa91730200cd972f9',1,'k210Show(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;kendyte_k210.c']]],
+  ['kendyte_5fk210_2ec_1',['kendyte_k210.c',['../kendyte__k210_8c.html',1,'']]]
 ];

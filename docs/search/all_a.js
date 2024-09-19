@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['native_0',['native',['../class_adafruit___neo_pixel.html#aceade341c8bdfa94160e66a69fb2daed',1,'Adafruit_NeoPixel']]],
-  ['neopixeltype_1',['neoPixelType',['../_adafruit___neo_pixel_8h.html#a6ff31bc7214a3ae338a80ed6142d69ff',1,'Adafruit_NeoPixel.h']]],
-  ['numbytes_2',['numBytes',['../class_adafruit___neo_pixel.html#a89a4a144941744dc01c6e0072ad0f05d',1,'Adafruit_NeoPixel']]],
-  ['numleds_3',['numLEDs',['../class_adafruit___neo_pixel.html#ad8218520ee2ad574f805985ea2c2b0b6',1,'Adafruit_NeoPixel']]],
-  ['numpixels_4',['numPixels',['../class_adafruit___neo_pixel.html#a515921e2c768750698f199c27613a143',1,'Adafruit_NeoPixel']]]
+  ['init_0',['init',['../class_adafruit___neo_pixel.html#a003283b9db3c683606144143a8f3d8c0',1,'Adafruit_NeoPixel']]],
+  ['installation_1',['Installation',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/README.md#autotoc_md12',1,'']]],
+  ['introduction_2',['Introduction',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/Adafruit_NeoPixel.cpp#intro_sec',1,'']]],
+  ['is800khz_3',['is800KHz',['../class_adafruit___neo_pixel.html#a56919a5e954b1a87ef965c75c6cc68a1',1,'Adafruit_NeoPixel']]]
 ];

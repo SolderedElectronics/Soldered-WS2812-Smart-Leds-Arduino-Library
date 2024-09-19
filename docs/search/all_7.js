@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['init_0',['init',['../class_adafruit___neo_pixel.html#a003283b9db3c683606144143a8f3d8c0',1,'Adafruit_NeoPixel']]],
-  ['is800khz_1',['is800KHz',['../class_adafruit___neo_pixel.html#a56919a5e954b1a87ef965c75c6cc68a1',1,'Adafruit_NeoPixel']]]
+  ['features_0',['Features',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/README.md#autotoc_md15',1,'']]],
+  ['fill_1',['fill',['../class_adafruit___neo_pixel.html#a310844b3e5580056edf52ce3268d8084',1,'Adafruit_NeoPixel']]],
+  ['first_20method_2',['First Method',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/README.md#autotoc_md13',1,'']]],
+  ['fun_3',['Have fun!',['../index.html#autotoc_md8',1,'']]],
+  ['functions_4',['Functions',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/README.md#autotoc_md16',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['updatelength_0',['updateLength',['../class_adafruit___neo_pixel.html#a74e917093c2eb16848c4a09427680f79',1,'Adafruit_NeoPixel']]],
-  ['updatetype_1',['updateType',['../class_adafruit___neo_pixel.html#a07b6949674125159484e9e02ef025f7d',1,'Adafruit_NeoPixel']]]
+  ['open_20source_20license_0',['Open-source license',['../index.html#autotoc_md7',1,'']]],
+  ['original_20source_1',['Original source',['../index.html#autotoc_md6',1,'']]]
 ];

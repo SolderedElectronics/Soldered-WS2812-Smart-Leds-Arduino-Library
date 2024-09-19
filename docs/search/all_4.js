@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['endtime_0',['endTime',['../class_adafruit___neo_pixel.html#a1774fd792c71e961624594e0c29e4541',1,'Adafruit_NeoPixel']]],
-  ['esp_2ec_1',['esp.c',['../esp_8c.html',1,'']]],
-  ['esp8266_2ec_2',['esp8266.c',['../esp8266_8c.html',1,'']]],
-  ['espshow_3',['espShow',['../_adafruit___neo_pixel_8cpp.html#ac0b6331d7e740cc928c9733e3684c874',1,'espShow(uint16_t pin, uint8_t *pixels, uint32_t numBytes, uint8_t type):&#160;Adafruit_NeoPixel.cpp'],['../esp_8c.html#a9f75d8214f2a439312753e8355cffc0e',1,'espShow(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;esp.c'],['../esp8266_8c.html#ab9f8294bbf9229da8b868412ca3b5d46',1,'espShow(uint8_t pin, uint8_t *pixels, uint32_t numBytes, __attribute__((unused)) boolean is800KHz):&#160;esp8266.c']]]
+  ['canshow_0',['canShow',['../class_adafruit___neo_pixel.html#a9e900a60b0ac2b43b99309bb118b929e',1,'Adafruit_NeoPixel']]],
+  ['clear_1',['clear',['../class_adafruit___neo_pixel.html#ae259682b202be0acd258d6879f4c7121',1,'Adafruit_NeoPixel']]],
+  ['color_2',['Color',['../class_adafruit___neo_pixel.html#ae7c444138dd0e6ac1008621d0a67048b',1,'Adafruit_NeoPixel::Color(uint8_t r, uint8_t g, uint8_t b)'],['../class_adafruit___neo_pixel.html#af0c47eb0d6d9f28a4f85b8039f78060c',1,'Adafruit_NeoPixel::Color(uint8_t r, uint8_t g, uint8_t b, uint8_t w)']]],
+  ['colorhsv_3',['ColorHSV',['../class_adafruit___neo_pixel.html#a1f16aee5b96e16e62598f826e292b23b',1,'Adafruit_NeoPixel']]],
+  ['compatibility_4',['Board compatibility',['../index.html#autotoc_md4',1,'']]],
+  ['contents_5',['Repository Contents',['../index.html#autotoc_md1',1,'']]],
+  ['contributing_6',['Contributing',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/README.md#autotoc_md19',1,'']]],
+  ['contributing_2emd_7',['CONTRIBUTING.md',['../_c_o_n_t_r_i_b_u_t_i_n_g_8md.html',1,'']]],
+  ['contribution_20guidelines_8',['Contribution Guidelines',['../md_src_2libs_2_adafruit___neo_pixel_2_c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
+  ['credits_9',['Credits',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/README.md#autotoc_md21',1,'']]]
 ];

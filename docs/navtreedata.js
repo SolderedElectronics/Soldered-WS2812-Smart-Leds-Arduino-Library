@@ -26,9 +26,9 @@ var NAVTREE =
 [
   [ "WS2812 Soldered Arduino Library", "index.html", [
     [ "WS2812 Arduino library", "index.html", "index" ],
-    [ "Contribution Guidelines", "md_src_libs__adafruit__neo_pixel__c_o_n_t_r_i_b_u_t_i_n_g.html", null ],
-    [ "tinyNeoPixel License", "md_src_libs_tiny_neo_pixel__l_i_c_e_n_s_e.html", [
-      [ "GNU Lesser General Public License, Version 3", "md_src_libs_tiny_neo_pixel__l_i_c_e_n_s_e.html#autotoc_md24", null ]
+    [ "Contribution Guidelines", "md_src_2libs_2_adafruit___neo_pixel_2_c_o_n_t_r_i_b_u_t_i_n_g.html", null ],
+    [ "tinyNeoPixel License", "md_src_2libs_2tiny_neo_pixel_2_l_i_c_e_n_s_e.html", [
+      [ "GNU Lesser General Public License, Version 3", "md_src_2libs_2tiny_neo_pixel_2_l_i_c_e_n_s_e.html#autotoc_md24", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

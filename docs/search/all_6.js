@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['gamma32_0',['gamma32',['../class_adafruit___neo_pixel.html#a0151163f5aeaa42676bc31a978d6d666',1,'Adafruit_NeoPixel']]],
-  ['gamma8_1',['gamma8',['../class_adafruit___neo_pixel.html#ab932cb619cd3420f9e3f269b7401710e',1,'Adafruit_NeoPixel']]],
-  ['getbrightness_2',['getBrightness',['../class_adafruit___neo_pixel.html#ab1b7af02712d6a1e228783a89ec12832',1,'Adafruit_NeoPixel']]],
-  ['getpin_3',['getPin',['../class_adafruit___neo_pixel.html#ac2d69741bcce8ad0b61c66757952db8e',1,'Adafruit_NeoPixel']]],
-  ['getpixelcolor_4',['getPixelColor',['../class_adafruit___neo_pixel.html#abccaba27e35bfae27c856e76b46c7924',1,'Adafruit_NeoPixel']]],
-  ['getpixels_5',['getPixels',['../class_adafruit___neo_pixel.html#ab484e9a9da6f1089091c2cda1a0841a7',1,'Adafruit_NeoPixel']]],
-  ['goffset_6',['gOffset',['../class_adafruit___neo_pixel.html#a3db2bc3b72073fd9a86438128186fc98',1,'Adafruit_NeoPixel']]],
-  ['gpiopin_7',['gpioPin',['../class_adafruit___neo_pixel.html#aae2d0e7eef0813f4d56e1717556046d6',1,'Adafruit_NeoPixel']]],
-  ['gpioport_8',['gpioPort',['../class_adafruit___neo_pixel.html#a36085934d362499469f7d70e250ab464',1,'Adafruit_NeoPixel']]]
+  ['endtime_0',['endTime',['../class_adafruit___neo_pixel.html#a1774fd792c71e961624594e0c29e4541',1,'Adafruit_NeoPixel']]],
+  ['esp_2ec_1',['esp.c',['../esp_8c.html',1,'']]],
+  ['esp8266_2ec_2',['esp8266.c',['../esp8266_8c.html',1,'']]],
+  ['espshow_3',['espShow',['../_adafruit___neo_pixel_8cpp.html#ac0b6331d7e740cc928c9733e3684c874',1,'espShow(uint16_t pin, uint8_t *pixels, uint32_t numBytes, uint8_t type):&#160;Adafruit_NeoPixel.cpp'],['../esp_8c.html#a9f75d8214f2a439312753e8355cffc0e',1,'espShow(uint8_t pin, uint8_t *pixels, uint32_t numBytes, boolean is800KHz):&#160;esp.c'],['../esp8266_8c.html#ab9f8294bbf9229da8b868412ca3b5d46',1,'espShow(uint8_t pin, uint8_t *pixels, uint32_t numBytes, __attribute__((unused)) boolean is800KHz):&#160;esp8266.c']]],
+  ['examples_4',['Examples',['..//github/workspace/gh-pages/src/libs/Adafruit_NeoPixel/README.md#autotoc_md17',1,'']]]
 ];
