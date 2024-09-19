@@ -6,27 +6,27 @@
 
 | ![Smart LED WS2812B Pixel](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-----------------------------------------------------------------------------------------------: |
-|                [Smart LED WS2812B Pixel](https://www.solde.red/333054)                            |
+|                [Smart LED WS2812B Pixel](https://solde.red/333054)                            |
 
 | ![Smart LED WS2812B Ring7](https://github.com/SolderedElectronics/Smart-LED-WS2812B-Ring7-hardware-design/blob/main/OUTPUTS/V1.1.1/333055.jpg) |
 | :--------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                   [Smart LED WS2812B Ring7](https://www.solde.red/333055)                                                      |
+|                                   [Smart LED WS2812B Ring7](https://solde.red/333055)                                                      |
 
 | ![Smart LED WS2812B Stick10](https://github.com/SolderedElectronics/Smart-LED-WS2812B-Stick10-hardware-design/blob/main/OUTPUTS/V1.0.0/333056.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                    [Smart LED WS2812B Stick10](https://www.solde.red/333056)                                                       |
+|                                    [Smart LED WS2812B Stick10](https://solde.red/333056)                                                       |
 
 | ![Smart LED WS2812B Ring12](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------: |
-|                   [Smart LED WS2812B Ring12](https://www.solde.red/333070)                         |
+|                   [Smart LED WS2812B Ring12](https://solde.red/333070)                         |
 
 | ![Smart LED WS2812B Ring24](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------: |
-|                      [Smart LED WS2812B Ring24](https://www.solde.red/333101)                      |
+|                      [Smart LED WS2812B Ring24](https://solde.red/333101)                      |
 
 | ![Smart LED WS2812B Ring24](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------: |
-|                    [WS2812B breakout with easyC](https://www.solde.red/333187)                     |
+|                    [WS2812B breakout with easyC](https://solde.red/333187)                     |
 
 These small LEDs are not just ordinary lights - each is specific because it has a built-in small integrated circuit (IC) that is able to turn on the LED light in 16 million different colors. IC is WS2812 and it uses a single wire can control thousands of these LEDs. With a little imagination by putting these pixels, you get superior effects with a minimum effort. These lamps are easy to control with Croduino.
 
