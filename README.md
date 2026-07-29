@@ -4,7 +4,7 @@
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-WS2812-Smart-Leds-Arduino-Library/actions/workflows/arduino_lint.yml)
 
 
-| ![Smart LED WS2812B Pixel](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Smart LED WS2812B Pixel](https://soldered.com/cdn/shop/files/333054_featured-photo_ecec4f_5a8b785d-227f-40bd-83f0-6ecea32b5a50.jpg) |
 | :-----------------------------------------------------------------------------------------------: |
 |                [Smart LED WS2812B Pixel](https://solde.red/333054)                            |
 
@@ -16,17 +16,14 @@
 | :------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                    [Smart LED WS2812B Stick10](https://solde.red/333056)                                                       |
 
-| ![Smart LED WS2812B Ring12](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Smart LED WS2812B Ring12](https://soldered.com/cdn/shop/files/333070_featured-photo_41426e_570ed738-1409-4889-8c72-f4818a4d16d5.jpg) |
 | :------------------------------------------------------------------------------------------------: |
 |                   [Smart LED WS2812B Ring12](https://solde.red/333070)                         |
 
-| ![Smart LED WS2812B Ring24](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Smart LED WS2812B Ring24](https://soldered.com/cdn/shop/files/333101_featured-photo_91c62f_c30d0c60-2315-4d13-b3fb-1e80b3d78e36.jpg) |
 | :------------------------------------------------------------------------------------------------: |
 |                      [Smart LED WS2812B Ring24](https://solde.red/333101)                      |
 
-| ![Smart LED WS2812B Ring24](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
-| :------------------------------------------------------------------------------------------------: |
-|                    [WS2812B breakout with easyC](https://solde.red/333187)                     |
 
 These small LEDs are not just ordinary lights - each is specific because it has a built-in small integrated circuit (IC) that is able to turn on the LED light in 16 million different colors. IC is WS2812 and it uses a single wire can control thousands of these LEDs. With a little imagination by putting these pixels, you get superior effects with a minimum effort. These lamps are easy to control with Croduino.
 
